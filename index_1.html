@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EFOOTBALL PRO SERVER - Confederação de eSports</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-futbol"></i>
+                    <span>EFPS</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Início</a></li>
+                    <li><a href="#x1" class="nav-link">Campeonatos X1</a></li>
+                    <li><a href="#coop" class="nav-link">Campeonatos Coop</a></li>
+                    <li><a href="#ranking" class="nav-link">Ranking</a></li>
+                    <li><a href="#awards" class="nav-link">Premiações</a></li>
+                    <li><a href="#stats" class="nav-link">Estatísticas</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">EFOOTBALL PRO SERVER</h1>
+                <p class="hero-subtitle">A Premier Confederação de eSports para eFootball Mobile</p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Jogadores Ativos</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Torneios Realizados</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">24/7</span>
+                        <span class="stat-label">Competições</span>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Participar Agora</button>
+                    <button class="btn btn-secondary">Ver Torneios</button>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Quick Navigation -->
+    <section class="quick-nav">
+        <div class="container">
+            <div class="quick-nav-grid">
+                <div class="quick-nav-item" data-section="x1">
+                    <div class="quick-nav-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Campeonatos X1</h3>
+                    <p>Torneios individuais com eliminação direta</p>
+                </div>
+                <div class="quick-nav-item" data-section="coop">
+                    <div class="quick-nav-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Campeonatos Coop</h3>
+                    <p>Competições de equipes e ligas</p>
+                </div>
+                <div class="quick-nav-item" data-section="ranking">
+                    <div class="quick-nav-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Ranking</h3>
+                    <p>Classificação geral e por modalidades</p>
+                </div>
+                <div class="quick-nav-item" data-section="awards">
+                    <div class="quick-nav-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Premiações</h3>
+                    <p>Troféus e reconhecimentos anuais</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campeonatos X1 Section -->
+    <section id="x1" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Campeonatos X1</h2>
+                <p class="section-subtitle">Competições individuais de alto nível</p>
+            </div>
+            <div class="tournaments-grid">
+                <div class="tournament-card active">
+                    <div class="tournament-header">
+                        <h3>Copa EFPS 2024</h3>
+                        <span class="tournament-status live">AO VIVO</span>
+                    </div>
+                    <div class="tournament-info">
+                        <div class="tournament-detail">
+                            <span class="label">Participantes:</span>
+                            <span class="value">64 jogadores</span>
+                        </div>
+                        <div class="tournament-detail">
+                            <span class="label">Formato:</span>
+                            <span class="value">Eliminação Simples</span>
+                        </div>
+                        <div class="tournament-detail">
+                            <span class="label">Prêmio:</span>
+                            <span class="value">Troféu + Cargo Especial</span>
+                        </div>
+                    </div>
+                    <div class="tournament-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 75%"></div>
+                        </div>
+                        <span class="progress-text">Semifinais</span>
+                    </div>
+                </div>
+                
+                <div class="tournament-card">
+                    <div class="tournament-header">
+                        <h3>Liga Elite X1</h3>
+                        <span class="tournament-status upcoming">PRÓXIMO</span>
+                    </div>
+                    <div class="tournament-info">
+                        <div class="tournament-detail">
+                            <span class="label">Início:</span>
+                            <span class="value">15 de Janeiro</span>
+                        </div>
+                        <div class="tournament-detail">
+                            <span class="label">Duração:</span>
+                            <span class="value">4 semanas</span>
+                        </div>
+                        <div class="tournament-detail">
+                            <span class="label">Inscrições:</span>
+                            <span class="value">Abertas</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-outline">Inscrever-se</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campeonatos Coop Section -->
+    <section id="coop" class="section bg-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Campeonatos Coop</h2>
+                <p class="section-subtitle">Competições de equipes e trabalho em grupo</p>
+            </div>
+            <div class="coop-content">
+                <div class="coop-leagues">
+                    <div class="league-card">
+                        <div class="league-header">
+                            <h3>Liga Premier EFPS</h3>
+                            <div class="league-badge">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                        </div>
+                        <div class="league-table">
+                            <div class="table-header">
+                                <span>Pos</span>
+                                <span>Equipe</span>
+                                <span>Pts</span>
+                                <span>J</span>
+                            </div>
+                            <div class="table-row">
+                                <span class="position">1</span>
+                                <span class="team">Thunder FC</span>
+                                <span class="points">45</span>
+                                <span class="games">15</span>
+                            </div>
+                            <div class="table-row">
+                                <span class="position">2</span>
+                                <span class="team">Elite Squad</span>
+                                <span class="points">42</span>
+                                <span class="games">15</span>
+                            </div>
+                            <div class="table-row">
+                                <span class="position">3</span>
+                                <span class="team">Pro Legends</span>
+                                <span class="points">38</span>
+                                <span class="games">15</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ranking Section -->
+    <section id="ranking" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ranking de Jogadores</h2>
+                <p class="section-subtitle">Os melhores jogadores do servidor</p>
+            </div>
+            <div class="ranking-tabs">
+                <button class="tab-btn active" data-tab="overall">Geral</button>
+                <button class="tab-btn" data-tab="x1">X1</button>
+                <button class="tab-btn" data-tab="coop">Coop</button>
+            </div>
+            <div class="ranking-content">
+                <div class="ranking-podium">
+                    <div class="podium-item second">
+                        <div class="podium-avatar">
+                            <img src="https://via.placeholder.com/80x80" alt="Player 2">
+                        </div>
+                        <div class="podium-info">
+                            <h4>ProGamer_02</h4>
+                            <span class="podium-points">2,850 pts</span>
+                        </div>
+                        <div class="podium-rank">2</div>
+                    </div>
+                    <div class="podium-item first">
+                        <div class="podium-crown">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <div class="podium-avatar">
+                            <img src="https://via.placeholder.com/100x100" alt="Player 1">
+                        </div>
+                        <div class="podium-info">
+                            <h4>ChampionX1</h4>
+                            <span class="podium-points">3,120 pts</span>
+                        </div>
+                        <div class="podium-rank">1</div>
+                    </div>
+                    <div class="podium-item third">
+                        <div class="podium-avatar">
+                            <img src="https://via.placeholder.com/80x80" alt="Player 3">
+                        </div>
+                        <div class="podium-info">
+                            <h4>SkillMaster</h4>
+                            <span class="podium-points">2,720 pts</span>
+                        </div>
+                        <div class="podium-rank">3</div>
+                    </div>
+                </div>
+                <div class="ranking-list">
+                    <div class="ranking-item">
+                        <span class="rank">4</span>
+                        <div class="player-info">
+                            <img src="https://via.placeholder.com/40x40" alt="Player">
+                            <span class="player-name">TacticalPro</span>
+                        </div>
+                        <span class="player-points">2,650</span>
+                    </div>
+                    <div class="ranking-item">
+                        <span class="rank">5</span>
+                        <div class="player-info">
+                            <img src="https://via.placeholder.com/40x40" alt="Player">
+                            <span class="player-name">GoalMachine</span>
+                        </div>
+                        <span class="player-points">2,580</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <section id="awards" class="section bg-gradient">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Premiações EFPS</h2>
+                <p class="section-subtitle">Reconhecimento aos melhores do ano</p>
+            </div>
+            <div class="awards-grid">
+                <div class="award-card golden">
+                    <div class="award-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Bola de Ouro EFPS</h3>
+                    <p>Melhor jogador do ano</p>
+                    <div class="award-winner">
+                        <img src="https://via.placeholder.com/60x60" alt="Winner">
+                        <span>ChampionX1</span>
+                    </div>
+                </div>
+                <div class="award-card silver">
+                    <div class="award-icon">
+                        <i class="fas fa-futbol"></i>
+                    </div>
+                    <h3>Prêmio Puskas</h3>
+                    <p>Melhor gol do ano</p>
+                    <div class="award-winner">
+                        <img src="https://via.placeholder.com/60x60" alt="Winner">
+                        <span>SkillMaster</span>
+                    </div>
+                </div>
+                <div class="award-card bronze">
+                    <div class="award-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Revelação</h3>
+                    <p>Melhor jogador novato</p>
+                    <div class="award-winner">
+                        <img src="https://via.placeholder.com/60x60" alt="Winner">
+                        <span>NewTalent</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section id="stats" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Estatísticas do Servidor</h2>
+                <p class="section-subtitle">Dados e análises em tempo real</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>523</h3>
+                        <p>Jogadores Registrados</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>1,247</h3>
+                        <p>Partidas Jogadas</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>52</h3>
+                        <p>Torneios Realizados</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>24/7</h3>
+                        <p>Atividade Online</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-futbol"></i>
+                        <span>EFPS</span>
+                    </div>
+                    <p>A premier confederação de eSports para eFootball Mobile, conectando jogadores e promovendo competições de alto nível.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#x1">Campeonatos X1</a></li>
+                        <li><a href="#coop">Campeonatos Coop</a></li>
+                        <li><a href="#ranking">Ranking</a></li>
+                        <li><a href="#awards">Premiações</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Comunidade</h4>
+                    <ul>
+                        <li><a href="#">Discord</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">YouTube</a></li>
+                        <li><a href="#">TikTok</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Suporte</h4>
+                    <ul>
+                        <li><a href="#">Regras</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Denúncias</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EFOOTBALL PRO SERVER. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="dynamic.js"></script>
+</body>
+</html>
+
